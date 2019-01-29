@@ -5,7 +5,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      password: 'swordfish',
+      password: 'greatwhite',
       authorized: false
     };
     this.authorize = this.authorize.bind(this);
@@ -42,6 +42,7 @@ class App extends Component {
 
     return (
       <div id="authorization">
+      <p>Try the password: greatwhite</p>
         <h1>
       		{ this.state.authorized ? 'Contact' : 'Enter the Password' }
   			</h1>
